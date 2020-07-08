@@ -15,7 +15,7 @@ jobs:
       - uses: mr-smithers-excellent/docker-build-push@v3
         name: Build & push Docker image
         with:
-          image: blazejwcislo/devops080720
+          image: blazejwcisloenginiety/devops080720
           tag: latest
           registry: docker.io
           dockerfile: Dockerfile
